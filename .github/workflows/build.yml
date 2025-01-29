@@ -19,3 +19,6 @@ jobs:
 
     - name: Run tests
       run: py.test
+      env:
+        ROOT_USERNAME: ${{ secrets.ROOT_USERNAME }}
+        ROOT_PASSWORD: ${{ secrets.ROOT_PASSWORD }}
