@@ -5,7 +5,7 @@ class HomePage:
     def __init__(self, page):
         self.page = page
         self.url = BASE_URL + '/admin/'
-    
+
     def goto(self):
         self.page.goto(self.url)
 
